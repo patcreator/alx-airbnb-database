@@ -121,6 +121,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="5PyYtrduCuHrEBLsp1Yc-45" connectable="0" parent="5PyYtrduCuHrEBLsp1Yc-23" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="N" vertex="1">
+          <mxGeometry relative="1" x="-0.9774" y="3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="fRXPcTvQVBpcqTq4anaO-20" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" value="&lt;div&gt;property_id&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="130" x="120" y="760" as="geometry" />
         </mxCell>
@@ -444,6 +449,11 @@
               <mxPoint x="-10" y="-177" />
             </Array>
             <mxPoint x="305" y="-265" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5PyYtrduCuHrEBLsp1Yc-46" connectable="0" parent="5PyYtrduCuHrEBLsp1Yc-24" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="N" vertex="1">
+          <mxGeometry relative="1" x="0.9426" y="3" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="5PyYtrduCuHrEBLsp1Yc-22" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="receives" vertex="1">
