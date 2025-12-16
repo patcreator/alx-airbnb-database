@@ -4,31 +4,34 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="5PyYtrduCuHrEBLsp1Yc-7" edge="1" parent="1" source="fRXPcTvQVBpcqTq4anaO-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="5PyYtrduCuHrEBLsp1Yc-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="fRXPcTvQVBpcqTq4anaO-1" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;" value="User" vertex="1">
           <mxGeometry height="50" width="110" x="400" y="310" as="geometry" />
         </mxCell>
-        <mxCell id="fRXPcTvQVBpcqTq4anaO-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" value="user_id: Primary Key,&lt;div&gt;&amp;nbsp;UUID, Indexed&lt;/div&gt;" vertex="1">
+        <mxCell id="fRXPcTvQVBpcqTq4anaO-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" value="user_id" vertex="1">
           <mxGeometry height="60" width="140" x="170" y="330" as="geometry" />
         </mxCell>
-        <mxCell id="fRXPcTvQVBpcqTq4anaO-3" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=0;" value="first_name: VARCHAR, NOT NULL" vertex="1">
+        <mxCell id="fRXPcTvQVBpcqTq4anaO-3" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=0;" value="first_name" vertex="1">
           <mxGeometry height="70" width="150" x="210" y="250" as="geometry" />
         </mxCell>
-        <mxCell id="fRXPcTvQVBpcqTq4anaO-4" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=0;" value="last_name: VARCHAR, NOT NULL" vertex="1">
+        <mxCell id="fRXPcTvQVBpcqTq4anaO-4" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=0;" value="last_name" vertex="1">
           <mxGeometry height="70" width="150" x="240" y="170" as="geometry" />
         </mxCell>
-        <mxCell id="fRXPcTvQVBpcqTq4anaO-5" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=0;" value="&lt;div&gt;email: VARCHAR, UNIQUE, NOT NULL&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="fRXPcTvQVBpcqTq4anaO-5" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=0;" value="&lt;div&gt;email&lt;/div&gt;" vertex="1">
           <mxGeometry height="70" width="140" x="300" y="90" as="geometry" />
         </mxCell>
-        <mxCell id="fRXPcTvQVBpcqTq4anaO-6" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=0;" value="&lt;div&gt;&lt;div&gt;password_hash: VARCHAR, NOT NULL&lt;/div&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="fRXPcTvQVBpcqTq4anaO-6" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=0;" value="&lt;div&gt;&lt;div&gt;password_hash&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="150" x="425" y="40" as="geometry" />
         </mxCell>
-        <mxCell id="fRXPcTvQVBpcqTq4anaO-7" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=0;" value="&lt;div&gt;&lt;div&gt;phone_number: VARCHAR, NULL&lt;/div&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="fRXPcTvQVBpcqTq4anaO-7" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=0;" value="&lt;div&gt;&lt;div&gt;phone_number&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="140" x="540" y="110" as="geometry" />
         </mxCell>
-        <mxCell id="fRXPcTvQVBpcqTq4anaO-8" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=0;" value="&lt;div&gt;&lt;div&gt;role: ENUM (guest, host, admin), NOT NULL&lt;/div&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="fRXPcTvQVBpcqTq4anaO-8" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=0;" value="&lt;div&gt;&lt;div&gt;role&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="70" width="160" x="560" y="190" as="geometry" />
         </mxCell>
-        <mxCell id="fRXPcTvQVBpcqTq4anaO-9" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=0;" value="&lt;div&gt;created_at: TIMESTAMP, DEFAULT CURRENT_TIMESTAMP&lt;/div&gt;" vertex="1">
+        <mxCell id="fRXPcTvQVBpcqTq4anaO-9" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=0;" value="&lt;div&gt;created_at&lt;/div&gt;" vertex="1">
           <mxGeometry height="70" width="160" x="600" y="300" as="geometry" />
         </mxCell>
         <mxCell id="fRXPcTvQVBpcqTq4anaO-10" edge="1" parent="1" source="fRXPcTvQVBpcqTq4anaO-1" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" target="fRXPcTvQVBpcqTq4anaO-6" value="">
@@ -85,28 +88,31 @@
         <mxCell id="fRXPcTvQVBpcqTq4anaO-19" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;" value="&lt;div&gt;Property&lt;/div&gt;" vertex="1">
           <mxGeometry height="50" width="110" x="370" y="740" as="geometry" />
         </mxCell>
-        <mxCell id="fRXPcTvQVBpcqTq4anaO-20" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" value="&lt;div&gt;property_id: Primary Key, UUID, Indexed&lt;/div&gt;" vertex="1">
+        <mxCell id="fRXPcTvQVBpcqTq4anaO-20" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" value="&lt;div&gt;property_id&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="250" x="30" y="760" as="geometry" />
         </mxCell>
-        <mxCell id="fRXPcTvQVBpcqTq4anaO-21" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=0;" value="&lt;div&gt;host_id: Foreign Key, references User(user_id)&lt;/div&gt;" vertex="1">
+        <mxCell id="5PyYtrduCuHrEBLsp1Yc-8" edge="1" parent="1" source="fRXPcTvQVBpcqTq4anaO-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="5PyYtrduCuHrEBLsp1Yc-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fRXPcTvQVBpcqTq4anaO-21" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=0;" value="&lt;div&gt;host_id&lt;/div&gt;" vertex="1">
           <mxGeometry height="70" width="190" x="140" y="680" as="geometry" />
         </mxCell>
-        <mxCell id="fRXPcTvQVBpcqTq4anaO-22" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=0;" value="&lt;div&gt;name: VARCHAR, NOT NULL&lt;/div&gt;" vertex="1">
+        <mxCell id="fRXPcTvQVBpcqTq4anaO-22" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=0;" value="&lt;div&gt;name&lt;/div&gt;" vertex="1">
           <mxGeometry height="70" width="180" x="180" y="600" as="geometry" />
         </mxCell>
-        <mxCell id="fRXPcTvQVBpcqTq4anaO-23" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=0;" value="&lt;div&gt;description: TEXT, NOT NULL&lt;/div&gt;" vertex="1">
+        <mxCell id="fRXPcTvQVBpcqTq4anaO-23" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=0;" value="&lt;div&gt;description&lt;/div&gt;" vertex="1">
           <mxGeometry height="70" width="190" x="220" y="520" as="geometry" />
         </mxCell>
-        <mxCell id="fRXPcTvQVBpcqTq4anaO-24" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=0;" value="&lt;div&gt;location: VARCHAR, NOT NULL&lt;/div&gt;" vertex="1">
+        <mxCell id="fRXPcTvQVBpcqTq4anaO-24" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=0;" value="&lt;div&gt;location&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="150" x="395" y="470" as="geometry" />
         </mxCell>
-        <mxCell id="fRXPcTvQVBpcqTq4anaO-25" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=0;" value="&lt;div&gt;pricepernight: DECIMAL, NOT NULL&lt;/div&gt;" vertex="1">
+        <mxCell id="fRXPcTvQVBpcqTq4anaO-25" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=0;" value="&lt;div&gt;pricepernight&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="230" x="510" y="540" as="geometry" />
         </mxCell>
-        <mxCell id="fRXPcTvQVBpcqTq4anaO-26" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=0;" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;updated_at: TIMESTAMP, ON UPDATE CURRENT_TIMESTAMP&lt;/span&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="fRXPcTvQVBpcqTq4anaO-26" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=0;" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;updated_at&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="70" width="260" x="530" y="620" as="geometry" />
         </mxCell>
-        <mxCell id="fRXPcTvQVBpcqTq4anaO-27" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=0;" value="&lt;div&gt;created_at: TIMESTAMP, DEFAULT CURRENT_TIMESTAMP&lt;/div&gt;" vertex="1">
+        <mxCell id="fRXPcTvQVBpcqTq4anaO-27" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=0;" value="&lt;div&gt;created_at&lt;/div&gt;" vertex="1">
           <mxGeometry height="70" width="240" x="570" y="730" as="geometry" />
         </mxCell>
         <mxCell id="fRXPcTvQVBpcqTq4anaO-28" edge="1" parent="1" source="fRXPcTvQVBpcqTq4anaO-19" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" target="fRXPcTvQVBpcqTq4anaO-24" value="">
@@ -163,28 +169,28 @@
         <mxCell id="fRXPcTvQVBpcqTq4anaO-37" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;" value="&lt;div&gt;Booking&lt;/div&gt;" vertex="1">
           <mxGeometry height="50" width="110" x="1290" y="750" as="geometry" />
         </mxCell>
-        <mxCell id="fRXPcTvQVBpcqTq4anaO-38" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" value="&lt;div&gt;booking_id: Primary Key, UUID, Indexed&lt;/div&gt;" vertex="1">
+        <mxCell id="fRXPcTvQVBpcqTq4anaO-38" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" value="&lt;div&gt;booking_id&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="250" x="950" y="770" as="geometry" />
         </mxCell>
-        <mxCell id="fRXPcTvQVBpcqTq4anaO-39" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=0;" value="&lt;div&gt;property_id: Foreign Key, references Property(property_id)&lt;/div&gt;" vertex="1">
+        <mxCell id="fRXPcTvQVBpcqTq4anaO-39" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=0;" value="&lt;div&gt;property_id&lt;/div&gt;" vertex="1">
           <mxGeometry height="70" width="250" x="1000" y="690" as="geometry" />
         </mxCell>
-        <mxCell id="fRXPcTvQVBpcqTq4anaO-40" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=0;" value="&lt;div&gt;user_id: Foreign Key, references User(user_id)&lt;/div&gt;" vertex="1">
+        <mxCell id="fRXPcTvQVBpcqTq4anaO-40" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=0;" value="&lt;div&gt;user_id&lt;/div&gt;" vertex="1">
           <mxGeometry height="70" width="230" x="1050" y="610" as="geometry" />
         </mxCell>
-        <mxCell id="fRXPcTvQVBpcqTq4anaO-41" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=0;" value="&lt;div&gt;start_date: DATE, NOT NULL&lt;/div&gt;" vertex="1">
+        <mxCell id="fRXPcTvQVBpcqTq4anaO-41" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=0;" value="&lt;div&gt;start_date&lt;/div&gt;" vertex="1">
           <mxGeometry height="70" width="220" x="1110" y="530" as="geometry" />
         </mxCell>
-        <mxCell id="fRXPcTvQVBpcqTq4anaO-42" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=0;" value="&lt;div&gt;end_date: DATE, NOT NULL&lt;/div&gt;" vertex="1">
+        <mxCell id="fRXPcTvQVBpcqTq4anaO-42" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=0;" value="&lt;div&gt;end_date&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="210" x="1270" y="480" as="geometry" />
         </mxCell>
-        <mxCell id="fRXPcTvQVBpcqTq4anaO-43" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=0;" value="&lt;div&gt;total_price: DECIMAL, NOT NULL&lt;/div&gt;" vertex="1">
+        <mxCell id="fRXPcTvQVBpcqTq4anaO-43" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=0;" value="&lt;div&gt;total_price&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="230" x="1430" y="550" as="geometry" />
         </mxCell>
-        <mxCell id="fRXPcTvQVBpcqTq4anaO-44" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=0;" value="&lt;div&gt;status: ENUM (pending, confirmed, canceled), NOT NULL&lt;/div&gt;" vertex="1">
+        <mxCell id="fRXPcTvQVBpcqTq4anaO-44" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=0;" value="&lt;div&gt;status&lt;/div&gt;" vertex="1">
           <mxGeometry height="70" width="350" x="1450" y="630" as="geometry" />
         </mxCell>
-        <mxCell id="fRXPcTvQVBpcqTq4anaO-45" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=0;" value="&lt;div&gt;created_at: TIMESTAMP, DEFAULT CURRENT_TIMESTAMP&lt;/div&gt;" vertex="1">
+        <mxCell id="fRXPcTvQVBpcqTq4anaO-45" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=0;" value="&lt;div&gt;created_at&lt;/div&gt;" vertex="1">
           <mxGeometry height="70" width="240" x="1490" y="740" as="geometry" />
         </mxCell>
         <mxCell id="fRXPcTvQVBpcqTq4anaO-46" edge="1" parent="1" source="fRXPcTvQVBpcqTq4anaO-37" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" target="fRXPcTvQVBpcqTq4anaO-42" value="">
@@ -241,19 +247,19 @@
         <mxCell id="fRXPcTvQVBpcqTq4anaO-55" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;" value="&lt;div&gt;Payment&lt;/div&gt;" vertex="1">
           <mxGeometry height="50" width="110" x="1340" y="165" as="geometry" />
         </mxCell>
-        <mxCell id="fRXPcTvQVBpcqTq4anaO-56" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" value="&lt;div&gt;payment_id: Primary Key, UUID, Indexed&lt;/div&gt;" vertex="1">
+        <mxCell id="fRXPcTvQVBpcqTq4anaO-56" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" value="&lt;div&gt;payment_id&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="250" x="990" y="140" as="geometry" />
         </mxCell>
-        <mxCell id="fRXPcTvQVBpcqTq4anaO-57" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=0;" value="&lt;div&gt;booking_id: Foreign Key, references Booking(booking_id)&lt;/div&gt;" vertex="1">
+        <mxCell id="fRXPcTvQVBpcqTq4anaO-57" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=0;" value="&lt;div&gt;booking_id&lt;/div&gt;" vertex="1">
           <mxGeometry height="70" width="250" x="1080" y="30" as="geometry" />
         </mxCell>
-        <mxCell id="fRXPcTvQVBpcqTq4anaO-58" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=0;" value="&lt;div&gt;amount: DECIMAL, NOT NULL&lt;/div&gt;" vertex="1">
+        <mxCell id="fRXPcTvQVBpcqTq4anaO-58" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=0;" value="&lt;div&gt;amount&lt;/div&gt;" vertex="1">
           <mxGeometry height="70" width="230" x="1280" y="-50" as="geometry" />
         </mxCell>
-        <mxCell id="fRXPcTvQVBpcqTq4anaO-59" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=0;" value="&lt;div&gt;payment_date: TIMESTAMP, DEFAULT CURRENT_TIMESTAMP&lt;/div&gt;" vertex="1">
+        <mxCell id="fRXPcTvQVBpcqTq4anaO-59" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=0;" value="&lt;div&gt;payment_date&lt;/div&gt;" vertex="1">
           <mxGeometry height="70" width="250" x="1510" y="20" as="geometry" />
         </mxCell>
-        <mxCell id="fRXPcTvQVBpcqTq4anaO-60" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=0;" value="payment_method: ENUM (credit_card, paypal, stripe), NOT NULL" vertex="1">
+        <mxCell id="fRXPcTvQVBpcqTq4anaO-60" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=0;" value="payment_method" vertex="1">
           <mxGeometry height="60" width="380" x="1520" y="150" as="geometry" />
         </mxCell>
         <mxCell id="fRXPcTvQVBpcqTq4anaO-63" edge="1" parent="1" source="fRXPcTvQVBpcqTq4anaO-55" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="fRXPcTvQVBpcqTq4anaO-60" value="">
@@ -295,22 +301,22 @@
         <mxCell id="fRXPcTvQVBpcqTq4anaO-73" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;" value="&lt;div&gt;Review&lt;/div&gt;" vertex="1">
           <mxGeometry height="50" width="110" x="1280" y="1230" as="geometry" />
         </mxCell>
-        <mxCell id="fRXPcTvQVBpcqTq4anaO-74" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" value="&lt;div&gt;review_id: Primary Key, UUID, Indexed&lt;/div&gt;" vertex="1">
+        <mxCell id="fRXPcTvQVBpcqTq4anaO-74" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" value="&lt;div&gt;review_id&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="250" x="940" y="1225" as="geometry" />
         </mxCell>
-        <mxCell id="fRXPcTvQVBpcqTq4anaO-75" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=0;" value="&lt;div&gt;property_id: Foreign Key, references Property(property_id)&lt;/div&gt;" vertex="1">
+        <mxCell id="fRXPcTvQVBpcqTq4anaO-75" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=0;" value="&lt;div&gt;property_id&lt;/div&gt;" vertex="1">
           <mxGeometry height="70" width="250" x="1000" y="1120" as="geometry" />
         </mxCell>
-        <mxCell id="fRXPcTvQVBpcqTq4anaO-76" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=0;" value="&lt;div&gt;user_id: Foreign Key, references User(user_id)&lt;/div&gt;" vertex="1">
+        <mxCell id="fRXPcTvQVBpcqTq4anaO-76" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=0;" value="&lt;div&gt;user_id&lt;/div&gt;" vertex="1">
           <mxGeometry height="70" width="230" x="1060" y="1030" as="geometry" />
         </mxCell>
-        <mxCell id="fRXPcTvQVBpcqTq4anaO-77" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=0;" value="&lt;div&gt;rating: INTEGER, CHECK: rating &amp;gt;= 1 AND rating &amp;lt;= 5, NOT NULL&lt;/div&gt;" vertex="1">
+        <mxCell id="fRXPcTvQVBpcqTq4anaO-77" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=0;" value="&lt;div&gt;rating&lt;/div&gt;" vertex="1">
           <mxGeometry height="70" width="220" x="1290" y="1000" as="geometry" />
         </mxCell>
-        <mxCell id="fRXPcTvQVBpcqTq4anaO-78" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=0;" value="&lt;div&gt;comment: TEXT, NOT NULL&lt;/div&gt;" vertex="1">
+        <mxCell id="fRXPcTvQVBpcqTq4anaO-78" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=0;" value="&lt;div&gt;comment&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="210" x="1510" y="1080" as="geometry" />
         </mxCell>
-        <mxCell id="fRXPcTvQVBpcqTq4anaO-79" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=0;" value="created_at: TIMESTAMP, DEFAULT CURRENT_TIMESTAMP" vertex="1">
+        <mxCell id="fRXPcTvQVBpcqTq4anaO-79" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=0;" value="created_at" vertex="1">
           <mxGeometry height="60" width="230" x="1540" y="1150" as="geometry" />
         </mxCell>
         <mxCell id="fRXPcTvQVBpcqTq4anaO-82" edge="1" parent="1" source="fRXPcTvQVBpcqTq4anaO-73" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" target="fRXPcTvQVBpcqTq4anaO-78" value="">
@@ -358,19 +364,19 @@
         <mxCell id="fRXPcTvQVBpcqTq4anaO-91" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;" value="&lt;div&gt;Message&lt;/div&gt;" vertex="1">
           <mxGeometry height="50" width="110" x="2050" y="938.67" as="geometry" />
         </mxCell>
-        <mxCell id="fRXPcTvQVBpcqTq4anaO-92" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" value="&lt;div&gt;message_id: Primary Key, UUID, Indexed&lt;/div&gt;" vertex="1">
+        <mxCell id="fRXPcTvQVBpcqTq4anaO-92" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" value="&lt;div&gt;message_id&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="250" x="1730" y="900" as="geometry" />
         </mxCell>
-        <mxCell id="fRXPcTvQVBpcqTq4anaO-93" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=0;" value="&lt;div&gt;sender_id: Foreign Key, references User(user_id)&lt;/div&gt;" vertex="1">
+        <mxCell id="fRXPcTvQVBpcqTq4anaO-93" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=0;" value="&lt;div&gt;sender_id&lt;/div&gt;" vertex="1">
           <mxGeometry height="70" width="250" x="1780" y="800" as="geometry" />
         </mxCell>
-        <mxCell id="fRXPcTvQVBpcqTq4anaO-94" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=0;" value="&lt;div&gt;recipient_id: Foreign Key, references User(user_id)&lt;/div&gt;" vertex="1">
+        <mxCell id="fRXPcTvQVBpcqTq4anaO-94" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=0;" value="&lt;div&gt;recipient_id&lt;/div&gt;" vertex="1">
           <mxGeometry height="70" width="230" x="2020" y="755" as="geometry" />
         </mxCell>
-        <mxCell id="fRXPcTvQVBpcqTq4anaO-95" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=0;" value="&lt;div&gt;message_body: TEXT, NOT NULL&lt;/div&gt;" vertex="1">
+        <mxCell id="fRXPcTvQVBpcqTq4anaO-95" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=0;" value="&lt;div&gt;message_body&lt;/div&gt;" vertex="1">
           <mxGeometry height="70" width="220" x="2220" y="820" as="geometry" />
         </mxCell>
-        <mxCell id="fRXPcTvQVBpcqTq4anaO-96" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=0;" value="sent_at: TIMESTAMP, DEFAULT CURRENT_TIMESTAMP" vertex="1">
+        <mxCell id="fRXPcTvQVBpcqTq4anaO-96" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=0;" value="sent_at" vertex="1">
           <mxGeometry height="60" width="210" x="2250" y="928.67" as="geometry" />
         </mxCell>
         <mxCell id="fRXPcTvQVBpcqTq4anaO-98" edge="1" parent="1" source="fRXPcTvQVBpcqTq4anaO-91" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="fRXPcTvQVBpcqTq4anaO-96" value="">
@@ -408,6 +414,9 @@
             <mxPoint x="2370" y="998.6700000000001" as="sourcePoint" />
             <mxPoint x="2370" y="998.6700000000001" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="5PyYtrduCuHrEBLsp1Yc-6" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="user&amp;nbsp;&lt;div&gt;hosts&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="80" x="40" y="490" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
