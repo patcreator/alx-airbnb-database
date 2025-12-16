@@ -77,6 +77,8 @@ Indexes are created to improve query performance:
 1. Create a MySQL database (optional):
    ```sql
    CREATE DATABASE airbnb_db;
+   USE airbnb_db;
+   SOURCE schema.sql;
 
-USE airbnb_db;
-SOURCE schema.sql;
+
+
