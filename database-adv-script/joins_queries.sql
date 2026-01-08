@@ -19,7 +19,7 @@ ON Booking.user_id = User.user_id;
 
 
 -- 2️ LEFT JOIN
--- Retrieve all properties and their reviews (including properties with no reviews)
+-- Retrieve all properties and their reviews, including properties that have no reviews
 SELECT
     Property.property_id,
     Property.name AS property_name,
@@ -28,7 +28,8 @@ SELECT
     Review.comment
 FROM Property
 LEFT JOIN Review
-ON Property.property_id = Review.property_id;
+ON Property.property_id = Review.property_id
+ORDER BY Property.property_id;
 
 
 -- 3️ FULL OUTER JOIN (simulated using UNION)
