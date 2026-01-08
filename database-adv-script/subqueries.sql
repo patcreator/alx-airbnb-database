@@ -1,0 +1,34 @@
+-- =====================================
+-- Task 1: Practice Subqueries
+-- =====================================
+
+-- 1️ Non-correlated subquery
+-- Find all properties where the average rating is greater than 4.0
+SELECT
+    Property.property_id,
+    Property.name,
+    Property.location
+FROM Property
+WHERE Property.property_id IN (
+    SELECT Review.property_id
+    FROM Review
+    GROUP BY Review.property_id
+    HAVING AVG(Review.rating) > 4.0
+)
+ORDER BY Property.property_id;
+
+
+-- 2️ Correlated subquery
+-- Find users who have made more than 3 bookings
+SELECT
+    User.user_id,
+    User.first_name,
+    User.last_name,
+    User.email
+FROM User
+WHERE (
+    SELECT COUNT(*)
+    FROM Booking
+    WHERE Booking.user_id = User.user_id
+) > 3
+ORDER BY User.user_id;
