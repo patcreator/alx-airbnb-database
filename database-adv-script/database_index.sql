@@ -24,5 +24,5 @@ CREATE INDEX idx_property_property_id ON Property(property_id);
 -- Measure query performance using EXPLAIN ANALYZE
 
 EXPLAIN ANALYZE SELECT * FROM User WHERE email = 'sample@example.com';
-EXPLAIN ANALYZE SELECT * FROM Booking WHERE user_id = 'sample-user-id';
-EXPLAIN ANALYZE SELECT * FROM Property WHERE property_id = 'sample-property-id';
+EXPLAIN ANALYZE SELECT * FROM Booking WHERE user_id = '00000000-0000-0000-0000-0000000000000000';
+EXPLAIN ANALYZE SELECT * FROM Property WHERE property_id = '00000000-0000-0000-0000-0000000000000000';
