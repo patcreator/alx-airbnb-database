@@ -30,17 +30,3 @@ Retrieves all users and all bookings, even if:
 - a booking is not linked to a user
 
 Since MySQL does not support FULL OUTER JOIN directly, the query is implemented using `UNION`.
-
----
-
-##  Files
-- `joins_queries.sql` – SQL queries for Task 0
-- `README.md` – Project documentation
-
----
-
-## ✅ Requirements Met
-- Uses correct SQL joins
-- Compatible with MySQL
-- Matches Airbnb database schema
-- Ready for manual and auto review
