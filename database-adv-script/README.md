@@ -30,3 +30,30 @@ Retrieves all users and all bookings, even if:
 - a booking is not linked to a user
 
 Since MySQL does not support FULL OUTER JOIN directly, the query is implemented using `UNION`.
+
+
+## Task 1: Practice Subqueries
+
+This task demonstrates the use of both non-correlated and correlated subqueries.
+
+### Queries Implemented
+
+1. **Non-correlated subquery**
+   - Retrieves properties whose average review rating is greater than 4.0.
+
+2. **Correlated subquery**
+   - Retrieves users who have made more than 3 bookings.
+
+
+## Task 2: Aggregations and Window Functions
+
+This task applies SQL aggregation and window functions to analyze booking data.
+
+### Queries Implemented
+
+1. **Aggregation with COUNT**
+   - Calculates the total number of bookings made by each user using `COUNT()` and `GROUP BY`.
+
+2. **Window Function (RANK)**
+   - Ranks properties based on the total number of bookings they have received using the `RANK()` window function.
+
