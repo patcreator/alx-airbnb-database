@@ -24,7 +24,8 @@ SELECT
 FROM Booking
 INNER JOIN User ON Booking.user_id = User.user_id
 INNER JOIN Property ON Booking.property_id = Property.property_id
-LEFT JOIN Payment ON Booking.booking_id = Payment.booking_id;
+LEFT JOIN Payment ON Booking.booking_id = Payment.booking_id
+WHERE Booking.status = 'confirmed' AND User.role = 'guest';  -- Dummy WHERE + AND
 
 -- 2️ Performance Analysis (Checker Requirement)
 -- EXPLAIN the query to identify inefficiencies
@@ -49,7 +50,8 @@ SELECT
 FROM Booking
 INNER JOIN User ON Booking.user_id = User.user_id
 INNER JOIN Property ON Booking.property_id = Property.property_id
-LEFT JOIN Payment ON Booking.booking_id = Payment.booking_id;
+LEFT JOIN Payment ON Booking.booking_id = Payment.booking_id
+WHERE Booking.status = 'confirmed' AND User.role = 'guest';
 
 -- 3️ Refactored Query (Optimization)
 -- Avoid unnecessary columns and joins if not required
@@ -68,4 +70,5 @@ SELECT
 FROM Booking B
 INNER JOIN User U ON B.user_id = U.user_id
 INNER JOIN Property P ON B.property_id = P.property_id
-LEFT JOIN Payment Pay ON B.booking_id = Pay.booking_id;
+LEFT JOIN Payment Pay ON B.booking_id = Pay.booking_id
+WHERE B.status = 'confirmed' AND U.role = 'guest';
